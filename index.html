@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Clicker</title>
+    <link rel = "stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <!--header bar-->
+
+    <div class = "header">
+        <h1 class="title">Dojonary</h1>
+        <label>
+        <input type = "text" size = "30" placeholder = "search" id="search"> </label>
+        <button class = "hdr-btn" onclick="login(this)">Login</button>
+    </div>
+
+    <!--top left box-->
+<main class="main">
+    <div class = "col">
+    <div class = "box1">
+        <h1> ninja</h1><br>
+        <h4><em>noun</em></h4><br>
+        <h4><b>Plural: <em>ninjas</em></b></h4><br>
+        <p class = "paragraph">A practitioner skilled in the<br><a href="#">Japanese</a> art of <a href = "#">ninjutsu</a></p><br>
+        <button class = "box1-btn" onclick="message()">13 likes</button>
+    </div>
+
+    <!--bottom left box-->
+
+    <div class = "box2">
+        <h1> ninja<br></h1><br>
+        <h4><b>noun</b><br></h4><br>
+        <h4><b>Plural: <i>ninjas</i></b><br></h4><br>
+        <p class = "paragraph"> A <a href= "#">programmer</a> who breaks<br>down problems with <a href = "#">zen</a>-like<br>focus</p><br>
+        <button class = "box2-btn" onclick="message()">37 likes</button>
+    </div>
+</div>
+
+    <!--top right box-->
+
+    <div class = "box3">
+        <h2>Dojonary is<br>defined by <b>YOU</b></h2><br>
+        <button class = "box3-btn" onclick="hide(this)">Add definition</button>
+    </div>
+</main>
+<script src = "script.js"></script>
+</body>
+</html>
